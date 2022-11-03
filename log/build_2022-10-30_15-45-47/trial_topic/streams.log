@@ -1,0 +1,46 @@
+[0.606s] Invoking command in '/home/jeong/trial_ws/src/trial_topic': PYTHONPATH=/home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trial_topic build --build-base /home/jeong/trial_ws/build/trial_topic/build install --prefix /home/jeong/trial_ws/install/trial_topic --record /home/jeong/trial_ws/build/trial_topic/install.log --single-version-externally-managed
+[0.805s] running egg_info
+[0.805s] creating ../../build/trial_topic/trial_topic.egg-info
+[0.805s] writing ../../build/trial_topic/trial_topic.egg-info/PKG-INFO
+[0.805s] writing dependency_links to ../../build/trial_topic/trial_topic.egg-info/dependency_links.txt
+[0.806s] writing entry points to ../../build/trial_topic/trial_topic.egg-info/entry_points.txt
+[0.806s] writing requirements to ../../build/trial_topic/trial_topic.egg-info/requires.txt
+[0.806s] writing top-level names to ../../build/trial_topic/trial_topic.egg-info/top_level.txt
+[0.807s] writing manifest file '../../build/trial_topic/trial_topic.egg-info/SOURCES.txt'
+[0.841s] reading manifest file '../../build/trial_topic/trial_topic.egg-info/SOURCES.txt'
+[0.841s] writing manifest file '../../build/trial_topic/trial_topic.egg-info/SOURCES.txt'
+[0.842s] running build
+[0.842s] running build_py
+[0.842s] creating /home/jeong/trial_ws/build/trial_topic/build
+[0.842s] creating /home/jeong/trial_ws/build/trial_topic/build/lib
+[0.842s] creating /home/jeong/trial_ws/build/trial_topic/build/lib/trial_topic
+[0.842s] copying trial_topic/trial_subscriber.py -> /home/jeong/trial_ws/build/trial_topic/build/lib/trial_topic
+[0.842s] copying trial_topic/__init__.py -> /home/jeong/trial_ws/build/trial_topic/build/lib/trial_topic
+[0.842s] copying trial_topic/trial_publisher.py -> /home/jeong/trial_ws/build/trial_topic/build/lib/trial_topic
+[0.842s] running install
+[0.843s] running install_lib
+[0.844s] creating /home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages/trial_topic
+[0.844s] copying /home/jeong/trial_ws/build/trial_topic/build/lib/trial_topic/trial_subscriber.py -> /home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages/trial_topic
+[0.844s] copying /home/jeong/trial_ws/build/trial_topic/build/lib/trial_topic/__init__.py -> /home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages/trial_topic
+[0.844s] copying /home/jeong/trial_ws/build/trial_topic/build/lib/trial_topic/trial_publisher.py -> /home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages/trial_topic
+[0.845s] byte-compiling /home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages/trial_topic/trial_subscriber.py to trial_subscriber.cpython-38.pyc
+[0.846s] byte-compiling /home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages/trial_topic/__init__.py to __init__.cpython-38.pyc
+[0.846s]   File "/home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages/trial_topic/trial_subscriber.py", line 30
+[0.846s]     if __name__=='__main__'
+[0.846s]                            ^
+[0.846s] SyntaxError: invalid syntax
+[0.846s] 
+[0.846s] byte-compiling /home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages/trial_topic/trial_publisher.py to trial_publisher.cpython-38.pyc
+[0.847s] running install_data
+[0.847s] creating /home/jeong/trial_ws/install/trial_topic/share/ament_index
+[0.847s] creating /home/jeong/trial_ws/install/trial_topic/share/ament_index/resource_index
+[0.847s] creating /home/jeong/trial_ws/install/trial_topic/share/ament_index/resource_index/packages
+[0.847s] copying resource/trial_topic -> /home/jeong/trial_ws/install/trial_topic/share/ament_index/resource_index/packages
+[0.847s] copying package.xml -> /home/jeong/trial_ws/install/trial_topic/share/trial_topic
+[0.847s] running install_egg_info
+[0.849s] Copying ../../build/trial_topic/trial_topic.egg-info to /home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages/trial_topic-0.0.0-py3.8.egg-info
+[0.850s] running install_scripts
+[0.867s] Installing publisher script to /home/jeong/trial_ws/install/trial_topic/lib/trial_topic
+[0.867s] Installing subscriber script to /home/jeong/trial_ws/install/trial_topic/lib/trial_topic
+[0.867s] writing list of installed files to '/home/jeong/trial_ws/build/trial_topic/install.log'
+[0.886s] Invoked command in '/home/jeong/trial_ws/src/trial_topic' returned '0': PYTHONPATH=/home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trial_topic build --build-base /home/jeong/trial_ws/build/trial_topic/build install --prefix /home/jeong/trial_ws/install/trial_topic --record /home/jeong/trial_ws/build/trial_topic/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = trial_topic.trial_publisher:main
+subscriber = trial_topic.trial_subscriber:main
+
