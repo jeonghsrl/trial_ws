@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/trial_launch/trial_launch.egg-info/PKG-INFO
+../../build/trial_launch/trial_launch.egg-info/SOURCES.txt
+../../build/trial_launch/trial_launch.egg-info/dependency_links.txt
+../../build/trial_launch/trial_launch.egg-info/entry_points.txt
+../../build/trial_launch/trial_launch.egg-info/requires.txt
+../../build/trial_launch/trial_launch.egg-info/top_level.txt
+../../build/trial_launch/trial_launch.egg-info/zip-safe
+launch/trial_launch.launch.py
+resource/trial_launch
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+trial_launch/__init__.py

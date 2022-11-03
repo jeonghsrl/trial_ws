@@ -1,0 +1,4 @@
+[console_scripts]
+client = trial_service.trial_client:main
+server = trial_service.trial_server:main
+

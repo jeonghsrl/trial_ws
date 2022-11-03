@@ -1,0 +1,6 @@
+Invoking command in '/home/jeong/trial_ws/build/trial_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jeong/trial_ws/src/trial_interface -DCMAKE_INSTALL_PREFIX=/home/jeong/trial_ws/install/trial_interface
+Invoked command in '/home/jeong/trial_ws/build/trial_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jeong/trial_ws/src/trial_interface -DCMAKE_INSTALL_PREFIX=/home/jeong/trial_ws/install/trial_interface
+Invoking command in '/home/jeong/trial_ws/build/trial_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jeong/trial_ws/build/trial_interface -- -j8 -l8
+Invoked command in '/home/jeong/trial_ws/build/trial_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jeong/trial_ws/build/trial_interface -- -j8 -l8
+Invoking command in '/home/jeong/trial_ws/build/trial_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jeong/trial_ws/build/trial_interface
+Invoked command in '/home/jeong/trial_ws/build/trial_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jeong/trial_ws/build/trial_interface

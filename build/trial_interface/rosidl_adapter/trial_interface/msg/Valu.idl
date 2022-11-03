@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from trial_interface/msg/Valu.msg
+// generated code does not contain a copyright notice
+
+
+module trial_interface {
+  module msg {
+    struct Valu {
+      double valu;
+    };
+  };
+};

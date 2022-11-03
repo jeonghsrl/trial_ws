@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000852] (-) JobUnselected: {'identifier': 'dummy_package'}
+[0.001080] (-) JobUnselected: {'identifier': 'trial_interface'}
+[0.001125] (-) JobUnselected: {'identifier': 'trial_topic'}
+[0.001147] (-) JobUnselected: {'identifier': 'trial_topic_pi'}
+[0.001182] (trial_service) JobQueued: {'identifier': 'trial_service', 'dependencies': OrderedDict()}
+[0.001206] (trial_service) JobStarted: {'identifier': 'trial_service'}
+[0.100122] (-) TimerEvent: {}
+[0.200513] (-) TimerEvent: {}
+[0.300857] (-) TimerEvent: {}
+[0.401240] (-) TimerEvent: {}
+[0.501518] (-) TimerEvent: {}
+[0.601826] (-) TimerEvent: {}
+[0.609845] (trial_service) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/trial_service', 'build', '--build-base', '/home/jeong/trial_ws/build/trial_service/build', 'install', '--prefix', '/home/jeong/trial_ws/install/trial_service', '--record', '/home/jeong/trial_ws/build/trial_service/install.log', '--single-version-externally-managed'], 'cwd': '/home/jeong/trial_ws/src/trial_service', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jeong', 'SSH_AGENT_PID': '1839', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jeong/trial_ws/install/trial_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'ibus', 'HOME': '/home/jeong', 'OLDPWD': '/home/jeong/trial_ws/src/trial_service', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1640', 'UNZIP': '-O CP932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jeong/trial_ws/install:/home/jeong/colcon_ws/install', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jeong', 'JOURNAL_STREAM': '9:47196', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jeong', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jeong/tools/arduino-1.8.19', 'SESSION_MANAGER': 'local/rosNote1:@/tmp/.ICE-unix/1953,unix/rosNote1:/tmp/.ICE-unix/1953', 'INVOCATION_ID': 'a1e7b78a9f0d4618be8fca05e8dbf8c8', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0a16b06c_35f8_481b_9c80_110beaa830f5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.252', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/jeong/trial_ws/install/trial_topic:/home/jeong/trial_ws/install/trial_interface:/home/jeong/trial_ws/install/dummy_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jeong/trial_ws/build/trial_service', 'ZIPINFO': '-O CP932', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages:/home/jeong/trial_ws/install/trial_topic/lib/python3.8/site-packages:/home/jeong/trial_ws/install/trial_interface/lib/python3.8/site-packages:/home/jeong/trial_ws/install/dummy_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jeong/trial_ws/install/trial_interface'}, 'shell': False}
+[0.701975] (-) TimerEvent: {}
+[0.802320] (-) TimerEvent: {}
+[0.813978] (trial_service) StdoutLine: {'line': b'running egg_info\n'}
+[0.814401] (trial_service) StdoutLine: {'line': b'creating ../../build/trial_service/trial_service.egg-info\n'}
+[0.814601] (trial_service) StdoutLine: {'line': b'writing ../../build/trial_service/trial_service.egg-info/PKG-INFO\n'}
+[0.814808] (trial_service) StdoutLine: {'line': b'writing dependency_links to ../../build/trial_service/trial_service.egg-info/dependency_links.txt\n'}
+[0.815044] (trial_service) StdoutLine: {'line': b'writing entry points to ../../build/trial_service/trial_service.egg-info/entry_points.txt\n'}
+[0.815151] (trial_service) StdoutLine: {'line': b'writing requirements to ../../build/trial_service/trial_service.egg-info/requires.txt\n'}
+[0.815228] (trial_service) StdoutLine: {'line': b'writing top-level names to ../../build/trial_service/trial_service.egg-info/top_level.txt\n'}
+[0.816266] (trial_service) StdoutLine: {'line': b"writing manifest file '../../build/trial_service/trial_service.egg-info/SOURCES.txt'\n"}
+[0.850435] (trial_service) StdoutLine: {'line': b"reading manifest file '../../build/trial_service/trial_service.egg-info/SOURCES.txt'\n"}
+[0.851058] (trial_service) StdoutLine: {'line': b"writing manifest file '../../build/trial_service/trial_service.egg-info/SOURCES.txt'\n"}
+[0.851294] (trial_service) StdoutLine: {'line': b'running build\n'}
+[0.851477] (trial_service) StdoutLine: {'line': b'running build_py\n'}
+[0.851681] (trial_service) StdoutLine: {'line': b'creating /home/jeong/trial_ws/build/trial_service/build\n'}
+[0.851789] (trial_service) StdoutLine: {'line': b'creating /home/jeong/trial_ws/build/trial_service/build/lib\n'}
+[0.851866] (trial_service) StdoutLine: {'line': b'creating /home/jeong/trial_ws/build/trial_service/build/lib/trial_service\n'}
+[0.851939] (trial_service) StdoutLine: {'line': b'copying trial_service/trial_server.py -> /home/jeong/trial_ws/build/trial_service/build/lib/trial_service\n'}
+[0.852017] (trial_service) StdoutLine: {'line': b'copying trial_service/trial_client.py -> /home/jeong/trial_ws/build/trial_service/build/lib/trial_service\n'}
+[0.852089] (trial_service) StdoutLine: {'line': b'copying trial_service/__init__.py -> /home/jeong/trial_ws/build/trial_service/build/lib/trial_service\n'}
+[0.852159] (trial_service) StdoutLine: {'line': b'running install\n'}
+[0.852521] (trial_service) StdoutLine: {'line': b'running install_lib\n'}
+[0.853565] (trial_service) StdoutLine: {'line': b'creating /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service\n'}
+[0.853842] (trial_service) StdoutLine: {'line': b'copying /home/jeong/trial_ws/build/trial_service/build/lib/trial_service/trial_server.py -> /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service\n'}
+[0.853954] (trial_service) StdoutLine: {'line': b'copying /home/jeong/trial_ws/build/trial_service/build/lib/trial_service/trial_client.py -> /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service\n'}
+[0.854033] (trial_service) StdoutLine: {'line': b'copying /home/jeong/trial_ws/build/trial_service/build/lib/trial_service/__init__.py -> /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service\n'}
+[0.854369] (trial_service) StdoutLine: {'line': b'byte-compiling /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service/trial_server.py to trial_server.cpython-38.pyc\n'}
+[0.855529] (trial_service) StdoutLine: {'line': b'byte-compiling /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service/trial_client.py to trial_client.cpython-38.pyc\n'}
+[0.855758] (trial_service) StderrLine: {'line': b'  File "/home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service/trial_server.py", line 14\n'}
+[0.855892] (trial_service) StderrLine: {'line': b'    return response\n'}
+[0.855968] (trial_service) StderrLine: {'line': b'    ^\n'}
+[0.856044] (trial_service) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[0.856115] (trial_service) StderrLine: {'line': b'\n'}
+[0.856315] (trial_service) StdoutLine: {'line': b'byte-compiling /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service/__init__.py to __init__.cpython-38.pyc\n'}
+[0.856422] (trial_service) StdoutLine: {'line': b'running install_data\n'}
+[0.856725] (trial_service) StdoutLine: {'line': b'creating /home/jeong/trial_ws/install/trial_service/share/ament_index\n'}
+[0.856994] (trial_service) StdoutLine: {'line': b'creating /home/jeong/trial_ws/install/trial_service/share/ament_index/resource_index\n'}
+[0.857091] (trial_service) StdoutLine: {'line': b'creating /home/jeong/trial_ws/install/trial_service/share/ament_index/resource_index/packages\n'}
+[0.857172] (trial_service) StdoutLine: {'line': b'copying resource/trial_service -> /home/jeong/trial_ws/install/trial_service/share/ament_index/resource_index/packages\n'}
+[0.857248] (trial_service) StdoutLine: {'line': b'copying package.xml -> /home/jeong/trial_ws/install/trial_service/share/trial_service\n'}
+[0.857332] (trial_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.858755] (trial_service) StdoutLine: {'line': b'Copying ../../build/trial_service/trial_service.egg-info to /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service-0.0.0-py3.8.egg-info\n'}
+[0.859489] (trial_service) StdoutLine: {'line': b'running install_scripts\n'}
+[0.876238] (trial_service) StdoutLine: {'line': b'Installing client script to /home/jeong/trial_ws/install/trial_service/lib/trial_service\n'}
+[0.876494] (trial_service) StdoutLine: {'line': b'Installing server script to /home/jeong/trial_ws/install/trial_service/lib/trial_service\n'}
+[0.876696] (trial_service) StdoutLine: {'line': b"writing list of installed files to '/home/jeong/trial_ws/build/trial_service/install.log'\n"}
+[0.895649] (trial_service) CommandEnded: {'returncode': 0}
+[0.904553] (-) TimerEvent: {}
+[0.910986] (trial_service) JobEnded: {'identifier': 'trial_service', 'rc': 0}
+[0.911728] (-) EventReactorShutdown: {}

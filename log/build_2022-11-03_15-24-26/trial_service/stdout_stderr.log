@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/trial_service/trial_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/trial_service/trial_service.egg-info/dependency_links.txt
+writing entry points to ../../build/trial_service/trial_service.egg-info/entry_points.txt
+writing requirements to ../../build/trial_service/trial_service.egg-info/requires.txt
+writing top-level names to ../../build/trial_service/trial_service.egg-info/top_level.txt
+reading manifest file '../../build/trial_service/trial_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/trial_service/trial_service.egg-info/SOURCES.txt'
+running build
+running build_py
+copying trial_service/trial_server.py -> /home/jeong/trial_ws/build/trial_service/build/lib/trial_service
+running install
+running install_lib
+copying /home/jeong/trial_ws/build/trial_service/build/lib/trial_service/trial_server.py -> /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service
+byte-compiling /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service/trial_server.py to trial_server.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/trial_service/trial_service.egg-info to /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /home/jeong/trial_ws/install/trial_service/lib/trial_service
+Installing server script to /home/jeong/trial_ws/install/trial_service/lib/trial_service
+writing list of installed files to '/home/jeong/trial_ws/build/trial_service/install.log'

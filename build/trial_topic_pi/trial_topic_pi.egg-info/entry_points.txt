@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = trial_topic_pi.trial_publisher_pi:main
+subscriber = trial_topic_pi.trial_subscriber_pi:main
+

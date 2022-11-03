@@ -1,0 +1,7 @@
+{
+  "package_name": "trial_interface",
+  "non_idl_tuples": [
+    "/home/jeong/trial_ws/src/trial_interface:msg/Valu.msg",
+    "/home/jeong/trial_ws/src/trial_interface:srv/XYZ.srv"
+  ]
+}

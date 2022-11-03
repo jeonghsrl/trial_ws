@@ -1,0 +1,25 @@
+[0.625s] Invoking command in '/home/jeong/trial_ws/src/trial_service': PYTHONPATH=/home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trial_service build --build-base /home/jeong/trial_ws/build/trial_service/build install --prefix /home/jeong/trial_ws/install/trial_service --record /home/jeong/trial_ws/build/trial_service/install.log --single-version-externally-managed
+[0.828s] running egg_info
+[0.828s] writing ../../build/trial_service/trial_service.egg-info/PKG-INFO
+[0.828s] writing dependency_links to ../../build/trial_service/trial_service.egg-info/dependency_links.txt
+[0.829s] writing entry points to ../../build/trial_service/trial_service.egg-info/entry_points.txt
+[0.829s] writing requirements to ../../build/trial_service/trial_service.egg-info/requires.txt
+[0.829s] writing top-level names to ../../build/trial_service/trial_service.egg-info/top_level.txt
+[0.865s] reading manifest file '../../build/trial_service/trial_service.egg-info/SOURCES.txt'
+[0.866s] writing manifest file '../../build/trial_service/trial_service.egg-info/SOURCES.txt'
+[0.866s] running build
+[0.866s] running build_py
+[0.866s] copying trial_service/trial_server.py -> /home/jeong/trial_ws/build/trial_service/build/lib/trial_service
+[0.866s] running install
+[0.867s] running install_lib
+[0.868s] copying /home/jeong/trial_ws/build/trial_service/build/lib/trial_service/trial_server.py -> /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service
+[0.869s] byte-compiling /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service/trial_server.py to trial_server.cpython-38.pyc
+[0.870s] running install_data
+[0.870s] running install_egg_info
+[0.872s] removing '/home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service-0.0.0-py3.8.egg-info' (and everything under it)
+[0.872s] Copying ../../build/trial_service/trial_service.egg-info to /home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages/trial_service-0.0.0-py3.8.egg-info
+[0.873s] running install_scripts
+[0.890s] Installing client script to /home/jeong/trial_ws/install/trial_service/lib/trial_service
+[0.890s] Installing server script to /home/jeong/trial_ws/install/trial_service/lib/trial_service
+[0.891s] writing list of installed files to '/home/jeong/trial_ws/build/trial_service/install.log'
+[0.911s] Invoked command in '/home/jeong/trial_ws/src/trial_service' returned '0': PYTHONPATH=/home/jeong/trial_ws/install/trial_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trial_service build --build-base /home/jeong/trial_ws/build/trial_service/build install --prefix /home/jeong/trial_ws/install/trial_service --record /home/jeong/trial_ws/build/trial_service/install.log --single-version-externally-managed

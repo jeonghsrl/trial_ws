@@ -1,0 +1,34 @@
+[0.615s] Invoking command in '/home/jeong/trial_ws/src/trial_launch': PYTHONPATH=/home/jeong/trial_ws/install/trial_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trial_launch build --build-base /home/jeong/trial_ws/build/trial_launch/build install --prefix /home/jeong/trial_ws/install/trial_launch --record /home/jeong/trial_ws/build/trial_launch/install.log --single-version-externally-managed
+[0.821s] running egg_info
+[0.822s] creating ../../build/trial_launch/trial_launch.egg-info
+[0.822s] writing ../../build/trial_launch/trial_launch.egg-info/PKG-INFO
+[0.822s] writing dependency_links to ../../build/trial_launch/trial_launch.egg-info/dependency_links.txt
+[0.822s] writing entry points to ../../build/trial_launch/trial_launch.egg-info/entry_points.txt
+[0.822s] writing requirements to ../../build/trial_launch/trial_launch.egg-info/requires.txt
+[0.822s] writing top-level names to ../../build/trial_launch/trial_launch.egg-info/top_level.txt
+[0.823s] writing manifest file '../../build/trial_launch/trial_launch.egg-info/SOURCES.txt'
+[0.857s] reading manifest file '../../build/trial_launch/trial_launch.egg-info/SOURCES.txt'
+[0.858s] writing manifest file '../../build/trial_launch/trial_launch.egg-info/SOURCES.txt'
+[0.858s] running build
+[0.858s] running build_py
+[0.858s] creating /home/jeong/trial_ws/build/trial_launch/build
+[0.858s] creating /home/jeong/trial_ws/build/trial_launch/build/lib
+[0.858s] creating /home/jeong/trial_ws/build/trial_launch/build/lib/trial_launch
+[0.858s] copying trial_launch/__init__.py -> /home/jeong/trial_ws/build/trial_launch/build/lib/trial_launch
+[0.858s] running install
+[0.859s] running install_lib
+[0.860s] creating /home/jeong/trial_ws/install/trial_launch/lib/python3.8/site-packages/trial_launch
+[0.860s] copying /home/jeong/trial_ws/build/trial_launch/build/lib/trial_launch/__init__.py -> /home/jeong/trial_ws/install/trial_launch/lib/python3.8/site-packages/trial_launch
+[0.860s] byte-compiling /home/jeong/trial_ws/install/trial_launch/lib/python3.8/site-packages/trial_launch/__init__.py to __init__.cpython-38.pyc
+[0.861s] running install_data
+[0.862s] creating /home/jeong/trial_ws/install/trial_launch/share/ament_index
+[0.862s] creating /home/jeong/trial_ws/install/trial_launch/share/ament_index/resource_index
+[0.862s] creating /home/jeong/trial_ws/install/trial_launch/share/ament_index/resource_index/packages
+[0.862s] copying resource/trial_launch -> /home/jeong/trial_ws/install/trial_launch/share/ament_index/resource_index/packages
+[0.862s] copying package.xml -> /home/jeong/trial_ws/install/trial_launch/share/trial_launch
+[0.862s] copying launch/trial_launch.launch.py -> /home/jeong/trial_ws/install/trial_launch/share/trial_launch
+[0.862s] running install_egg_info
+[0.864s] Copying ../../build/trial_launch/trial_launch.egg-info to /home/jeong/trial_ws/install/trial_launch/lib/python3.8/site-packages/trial_launch-0.0.0-py3.8.egg-info
+[0.864s] running install_scripts
+[0.881s] writing list of installed files to '/home/jeong/trial_ws/build/trial_launch/install.log'
+[0.900s] Invoked command in '/home/jeong/trial_ws/src/trial_launch' returned '0': PYTHONPATH=/home/jeong/trial_ws/install/trial_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trial_launch build --build-base /home/jeong/trial_ws/build/trial_launch/build install --prefix /home/jeong/trial_ws/install/trial_launch --record /home/jeong/trial_ws/build/trial_launch/install.log --single-version-externally-managed
